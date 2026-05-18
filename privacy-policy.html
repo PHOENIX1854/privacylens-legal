@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PrivacyLens Privacy Policy</title>
+  <meta name="description" content="Privacy policy for PrivacyLens, an offline Android privacy review app.">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f8fafb;
+      --text: #171c1d;
+      --muted: #516064;
+      --card: #ffffff;
+      --accent: #1b6b63;
+      --border: #d9e2e4;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111415;
+        --text: #e5eaeb;
+        --muted: #b8c4c7;
+        --card: #1a1f20;
+        --accent: #87d8cd;
+        --border: #334044;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    main {
+      width: min(920px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 48px 0;
+    }
+
+    header {
+      margin-bottom: 28px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.1;
+    }
+
+    h2 {
+      margin: 28px 0 10px;
+      font-size: 1.25rem;
+    }
+
+    p,
+    li {
+      color: var(--muted);
+      font-size: 1rem;
+    }
+
+    a {
+      color: var(--accent);
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 22px;
+    }
+
+    .updated {
+      color: var(--muted);
+      margin: 0;
+    }
+
+    .notice {
+      border-left: 4px solid var(--accent);
+      padding-left: 16px;
+      margin: 22px 0;
+    }
+
+    footer {
+      margin-top: 32px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>PrivacyLens Privacy Policy</h1>
+      <p class="updated">Last updated: May 18, 2026</p>
+    </header>
+
+    <section class="card">
+      <p class="notice">
+        PrivacyLens is an offline Android privacy review tool. It analyzes installed app metadata and Android permission states locally on your device.
+      </p>
+
+      <h2>What PrivacyLens Accesses</h2>
+      <p>PrivacyLens may read installed app metadata, including:</p>
+      <ul>
+        <li>Installed app names</li>
+        <li>Package names</li>
+        <li>App icons</li>
+        <li>Requested permissions</li>
+        <li>Android-reported permission grant states</li>
+        <li>App install and update dates</li>
+      </ul>
+      <p>This information is used only to show permission explanations, privacy review labels, PDF reports, and risk scores inside the app.</p>
+
+      <h2>What PrivacyLens Does Not Access</h2>
+      <p>PrivacyLens does not read:</p>
+      <ul>
+        <li>Messages or chats</li>
+        <li>Photos, videos, or files</li>
+        <li>Passwords</li>
+        <li>Private app databases</li>
+        <li>Exact network traffic</li>
+        <li>Exact moments when another app uses a permission</li>
+      </ul>
+
+      <h2>Data Collection and Sharing</h2>
+      <p>PrivacyLens does not upload personal data, app lists, scan results, reports, or settings to any server.</p>
+      <p>PrivacyLens does not use accounts, login, analytics SDKs, advertising SDKs, tracking SDKs, or backend APIs by default.</p>
+
+      <h2>Local Data</h2>
+      <p>PrivacyLens stores some choices locally on your device, such as ignored warnings, trusted app choices, manual app category overrides, and onboarding completion. You can reset these from the in-app Settings screen.</p>
+      <p>PDF reports are generated locally on your device. Sharing a report happens only when you choose Android's share option.</p>
+
+      <h2>Children's Privacy</h2>
+      <p>PrivacyLens is a general privacy utility and does not knowingly collect personal information from children. The app does not collect or upload personal data.</p>
+
+      <h2>Changes to This Policy</h2>
+      <p>If this policy changes, the updated version will be posted on this page with a new updated date.</p>
+
+      <h2>Contact</h2>
+      <p>For support or privacy questions, contact <a href="mailto:lensprivacy@gmail.com">lensprivacy@gmail.com</a>.</p>
+    </section>
+
+    <footer>
+      <p>PrivacyLens works offline. No cloud. No tracking. No account required.</p>
+    </footer>
+  </main>
+</body>
+</html>
